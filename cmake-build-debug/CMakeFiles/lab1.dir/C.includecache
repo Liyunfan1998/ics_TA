@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/luke1998/Desktop/ics助教/lab1/handout.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+stdbool.h
+-
+math.h
+-
+
+/Users/luke1998/Desktop/ics助教/lab1/yours.c
+stdlib.h
+-
+sys/time.h
+-
+printf.h
+-
+handout.c
+/Users/luke1998/Desktop/ics助教/lab1/handout.c
+
