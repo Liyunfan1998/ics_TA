@@ -41,8 +41,8 @@ double *Mult(double *A, double *B, int n) {
             for (int k = 0; k < n; k++) {
                 C[i * n + j] += A[i * n + k] * B[k * n + j];
             }
-    printf("C\n");
-    printMatrix(C, n);
+//    printf("C\n");
+//    printMatrix(C, n);
     return C;
 }
 //include the check function from this file to check your program, use '#include "check.c"'
@@ -54,7 +54,7 @@ bool check(double *Yours, double *A, double *B, int n) {
     for (int i = 0; i < n * n; i++)
         if (fabs(Mi[i] - Yours[i]) > 1e-6) {
             free(Mi);
-            printf("The first place where your program went wrong (i is the index within a 1-d array): \ni=%d",i);
+            printf("The first place where your program went wrong (i is the index within a 1-d array): \ni=%d\n",i);
             return false;
         }
     free(Mi);

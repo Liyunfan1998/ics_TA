@@ -16,21 +16,21 @@ double *Yours(int n) {
 
 int main(int argc, char *argv[]) {
     srand((unsigned int) time(NULL));
-    int n = (int) argv[1];
+    int n = atoi(argv[1]) ;
     double *A, *B;
     A = generate(n);
     B = generate(n);
-    printf("A\n");
-    printMatrix(A, n);
-    printf("B\n");
-    printMatrix(B, n);
+//    printf("A\n");
+//    printMatrix(A, n);
+//    printf("B\n");
+//    printMatrix(B, n);
     double *Y;
     Y = (double *) malloc(n * n * sizeof(double));
     Y = generate(n);
 //    Y = Yours(n);
 //    Y = Mult(A, B, n);
-    printf("Y\n");
-    printMatrix(Y, n);
+//    printf("Y\n");
+//    printMatrix(Y, n);
     if (check(Y, A, B, n))
         printf("TRUE%d\n", 1);
     else
