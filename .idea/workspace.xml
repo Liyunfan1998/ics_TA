@@ -33,9 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5950fcfb-725f-41da-8423-7d29a432f51c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/handout.c" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yours.c" afterPath="$PROJECT_DIR$/yours.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handout.c" afterPath="$PROJECT_DIR$/handout.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,12 +65,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handout.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handout.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handout.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handout.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/handout.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-501">
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="e#44#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +107,8 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/yours.h" />
         <option value="$PROJECT_DIR$/handout.h" />
-        <option value="$PROJECT_DIR$/handout.c" />
         <option value="$PROJECT_DIR$/yours.c" />
+        <option value="$PROJECT_DIR$/handout.c" />
       </list>
     </option>
   </component>
@@ -191,15 +201,16 @@
       <workItem from="1521447175209" duration="6423000" />
       <workItem from="1521514099161" duration="385000" />
       <workItem from="1521514501984" duration="664000" />
-      <workItem from="1521995988795" duration="96000" />
+      <workItem from="1521995988795" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20609000" />
+    <option name="totallyTimeSpent" value="20756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1238" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -207,7 +218,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2750836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2750836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -369,7 +380,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generate.c" />
-    <entry file="file://$PROJECT_DIR$/handout.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -391,6 +401,16 @@
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handout.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#44#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
