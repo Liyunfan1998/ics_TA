@@ -37,7 +37,7 @@ double *generate(int n) {
 double *Mult(double *A, double *B, int n) {
     double *C;
     C = (double *) malloc(n * n * sizeof(double));
-    memset(C, 0, n * n);
+    memset(C, 0, n * n * sizeof(double));
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
             for (int k = 0; k < n; k++) {
@@ -54,7 +54,7 @@ bool check(double *Yours, double *A, double *B, int n) {
     double *Mi;
     Mi = Mult(A, B, n);
     for (int i = 0; i < n * n; i++)
-        if (fabs(Mi[i] - Yours[i]) > 1e-6) {
+        if (fabs(Mi[i] - Yours[i]) > 1e-3) {
             free(Mi);
             printf("The first place where your program went wrong (i is the index within a 1-d array): \ni=%d\n", i);
             return false;
